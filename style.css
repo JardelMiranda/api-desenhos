@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #000, #1a1a1a);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+#search {
+  padding: 12px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #222;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
